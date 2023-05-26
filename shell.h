@@ -10,7 +10,7 @@
 #include <fcntl.h>
 #define MAX_COMMAND_LENGTH 100
 ssize_t getline(char **lineptr, size_t *n, FILE *stream);
-void prompt(int argc, char **argv, char **env); 
+void prompt(int argc, char **argv, char **env);
 int stat(const char *pathname, struct stat *statbuf);
 int execve(const char *pathname, char *const argv[], char *const envp[]);
 void exec_cmd(char *strg);
